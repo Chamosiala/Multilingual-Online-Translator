@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 languages = ['Arabic', 'German', 'English', 'Spanish', 'French', 'Hebrew', 'Japanese', 'Dutch', 'Polish', 'Portuguese',
              'Romanian', 'Russian', 'Turkish']
+languages = sorted(languages)
 
 print("Hello, you're welcome to the translator. Translator supports:")
 for i in range(len(languages)):
